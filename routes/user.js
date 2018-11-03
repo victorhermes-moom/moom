@@ -105,9 +105,9 @@ router.get('/forgot', function(req, res) {
               user: 'apikey', // generated ethereal user
               pass: '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' // generated ethereal password
           },
-          tls: {
+          /*tls: {
             rejectUnauthorized: false
-          }
+          }*/
       });
   
         var saida = `
