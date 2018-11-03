@@ -17,7 +17,7 @@ var userRouter = require('./routes/user');
 var app = express();
 
 mongoose.Promise = global.Promise;
-  mongoose.connect('mongodb://node-shop:mHD7194qwerty@@node-rest-api-shard-00-00-hcj0k.mongodb.net:27017,node-rest-api-shard-00-01-hcj0k.mongodb.net:27017,node-rest-api-shard-00-02-hcj0k.mongodb.net:27017/test?ssl=true&replicaSet=node-rest-api-shard-0&authSource=admin&retryWrites=true', {
+  mongoose.connect('mongodb://node-shop:node-shop@node-rest-api-shard-00-00-hcj0k.mongodb.net:27017,node-rest-api-shard-00-01-hcj0k.mongodb.net:27017,node-rest-api-shard-00-02-hcj0k.mongodb.net:27017/test?ssl=true&replicaSet=node-rest-api-shard-0&authSource=admin&retryWrites=true', {
     useMongoClient: true,
     /* other options */ 
   }
