@@ -103,7 +103,7 @@ router.get('/forgot', function(req, res) {
           secure: false, // true for 465, false for other ports
           auth: {
               user: 'apikey', // generated ethereal user
-              pass: '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' // generated ethereal password
+              pass: '' // generated ethereal password
           },
           tls: {
             rejectUnauthorized: false
